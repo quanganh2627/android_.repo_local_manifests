@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Modified projects -->
+<!--
+-->
+<!--
+  <project path="frameworks/base" name="nels83/android_frameworks_base" remote="github" revision="cm-12.1" />
+-->
+
+<!--
+-->
+<!--
+  <project path="frameworks/native" name="nels83/android_frameworks_native" remote="github" revision="cm-12.1" />
+-->
+
+<!--
+  <project path="hardware/intel/common/libmix" name="nels83/android_hardware_intel_common_libmix" remote="github" revision="cm-12.1" />
+
+  <project path="hardware/intel/img/psb_video" name="nels83/android_hardware_intel_img_psb_video" remote="github" revision="cm-12.1" />
+
+-->
+<!-- TWRP for CM -->
+<!--
+-->
+<!--
+  <project path="bootable/recovery-nels" name="nels83/android_bootable_recovery" remote="github" revision="cm-12.1" referance="false"/>
+-->
+
+<!-- Dependencies -->
+<!--
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-12.1" />
+-->
+<!--
+  <project path="hardware/intel/apache-harmony" name="social-design-concepts/vendor_intel_hardware_apache-harmony" remote="github" revision="intel-android-5.0.0_r2.0.1" />
+-->
+
+<!-- Device projects -->
+<!--
+  <project path="kernel/samsung/santos10" name="nels83/android_kernel_samsung_santos10" remote="github" revision="cm-12.1" />
+-->
+  <project path="device/samsung/p5200" name="nels83/android_device_samsung_p5200" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/p5210" name="nels83/android_device_samsung_p5210" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/p5220" name="nels83/android_device_samsung_p5220" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung/p52xx" name="nels83/proprietary_vendor_samsung_p52xx" remote="github" revision="cm-12.1" />
+
+</manifest>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+		<remote name="umg-47"	fetch="file:///home/quanganh2627/ww47" />
+
+
+<!--
+<project name="bootable/uefi" path="bootable/uefi" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="bootable/userfastboot" path="bootable/userfastboot" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="device/intel/build" path="device/intel/build" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="external/drm" path="external/drm" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="external/efibootmgr" path="external/efibootmgr" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="external/efitools" path="external/efitools" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="external/efivar" path="external/efivar" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="external/gnu-efi" path="external/gnu-efi" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="external/iniparser" path="external/iniparser" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="external/libpciaccs" path="external/libpciaccess" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+
+
+<!--
+<project name="external/pciutils" path="external/pciutils" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="external/SmartcardService" path="external/SmartcardService" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="external/uefi_shim" path="external/uefi_shim" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="hardware/intel/efi_capsules" path="hardware/intel/efi_capsules" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="hardware/intel/efi_prebuilts/efitools" path="hardware/intel/efi_prebuilts/efitools" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="hardware/intel/efi_prebuilts/gnu-efi" path="hardware/intel/efi_prebuilts/gnu-efi" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="hardware/intel/efi_prebuilts/gummiboot" path="hardware/intel/efi_prebuilts/gummiboot" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="hardware/intel/efi_prebuilts/kernelflinger" path="hardware/intel/efi_prebuilts/kernelflinger" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="hardware/intel/efi_prebuilts/openssl" path="hardware/intel/efi_prebuilts/openssl" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="hardware/intel/efi_prebuilts/uefi_shim" path="hardware/intel/efi_prebuilts/uefi_shim" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="hardware/intel/kernelflinger" path="hardware/intel/kernelflinger" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="hardware/intel/libpower" path="hardware/intel/libpower" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="linux/kernel" path="linux/kernel" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="linux/modules/camera" path="linux/modules/camera" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="linux/modules/debug_tools" path="linux/modules/debug_tools" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="linux/modules/drivers" path="linux/modules/drivers" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="linux/modules/intel_media" path="linux/modules/intel_media" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="linux/modules/esif-driver" path="linux/modules/esif-driver" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="linux/modules/ioaccess" path="linux/modules/ioaccess" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="linux/modules/pm/power_btn" path="linux/modules/pm/power_btn" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="prebuilts/intel" path="prebuilts/intel" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="vendor/intel/dptf" path="vendor/intel/dptf" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="external/alac" path="external/alac" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+<project name="vendor/intel/external/libjpeg-turbo" path="vendor/intel/external/libjpeg-turbo" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/fw/video" path="vendor/intel/fw/video" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/hardware/audio_media" path="vendor/intel/hardware/audio_media" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="vendor/intel/hardware/bluetooth" path="vendor/intel/hardware/bluetooth" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="vendor/intel/hardware/em_common" path="vendor/intel/hardware/em_common" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="vendor/intel/hardware/healthd" path="vendor/intel/hardware/healthd" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="vendor/intel/hardware/ia_watchdog" path="vendor/intel/hardware/ia_watchdog" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="vendor/intel/hardware/libcamerausb" path="vendor/intel/hardware/libcamerausb" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="vendor/intel/hardware/libstagefrighthw" path="vendor/intel/hardware/libstagefrighthw" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/hardware/mfld_cdk" path="vendor/intel/hardware/mfld_cdk" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/hardware/mmgr" path="vendor/intel/hardware/mmgr" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/hardware/omx-components" path="vendor/intel/hardware/omx-components" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="vendor/intel/hardware/PRIVATE/ufo" path="vendor/intel/hardware/PRIVATE/ufo" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="vendor/intel/hardware/PRIVATE/wlan/fw-binary-public" path="vendor/intel/hardware/PRIVATE/wlan/fw-binary-public" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/hardware/PRIVATE/wlan/hostap-public" path="vendor/intel/hardware/PRIVATE/wlan/hostap-public" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/hardware/PRIVATE/wlan/iwlwifi-stack-public" path="vendor/intel/hardware/PRIVATE/wlan/iwlwifi-stack-public" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="vendor/intel/hardware/psb_headers" path="vendor/intel/hardware/psb_headers" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/hardware/psb_video" path="vendor/intel/hardware/psb_video" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="vendor/intel/hardware/txei" path="vendor/intel/hardware/txei" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<!--
+<project name="vendor/intel/hardware/wrs_omxil_core" path="vendor/intel/hardware/wrs_omxil_core" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="vendor/intel/houdini" path="vendor/intel/houdini" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-13.0" path="vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-13.0" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" path="vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="vendor/intel/libdmi" path="vendor/intel/libdmi" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="vendor/intel/media-ctl" path="vendor/intel/media-ctl" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/pcg" path="vendor/intel/pcg" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/PRIVATE/cert" path="vendor/intel/PRIVATE/cert" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<!--
+<project name="vendor/intel/pstore-clean" path="vendor/intel/pstore-clean" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+-->
+<project name="vendor/intel/rtc" path="vendor/intel/rtc" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+<project name="vendor/intel/touchfilter" path="vendor/intel/touchfilter" remote="umg-47" revision="refs/tags/imin/redhookbay/a50/rel_20141226-2014_ww52" />
+
+
+
+
+
+<project name="device/intel/baytrail" path="device/intel/baytrail" remote="umg" revision="refs/tags/imin/byt_t_ffrd8_64/a50/rel_20150129-2015_ww04" />
+<project name="device/intel/common" path="device/intel/common" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+<project name="vendor/intel/tools/audiocomms/audience/ad-proxy" path="vendor/intel/tools/audiocomms/audience/ad-proxy" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+<project name="vendor/intel/tools/audiocomms/audience/ad-streamer" path="vendor/intel/tools/audiocomms/audience/ad-streamer" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+<project name="vendor/intel/tools/intel_signing_utility" path="vendor/intel/tools/intel_signing_utility" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+<project name="vendor/intel/tools/log_capture" path="vendor/intel/tools/log_capture" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+<!--
+<project name="vendor/intel/tools/uefivar" path="vendor/intel/tools/uefivar" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+-->
+<project name="vendor/intel/tools/xfstk-stitcher" path="vendor/intel/tools/xfstk-stitcher" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+
+</manifest>

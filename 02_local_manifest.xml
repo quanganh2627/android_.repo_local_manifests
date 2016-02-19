@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+		<remote name="umg"
+				fetch="file:///home/quanganh2627/ww41" />
+    <remote name="android-x86" fetch="git://git.code.sf.net/p/android-x86" />
+  <remove-project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="github" revision="cm-12.1" />
+  <project path="frameworks/webview" name="ResurrectionRemix/android_frameworks_webview" remote="github" revision="cm-12.1" />
+<project path="vendor/google" name="cgapps/vendor_google" remote="github" revision="master" />
+<project name="vendor/intel/apps/SensorCal" path="vendor/intel/apps/SensorCal" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/sensors" path="vendor/intel/hardware/sensors" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/apps/VppSettings" path="vendor/intel/apps/VppSettings" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/arkham" path="vendor/intel/arkham" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/boot/bootstub" path="vendor/intel/boot/bootstub" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/audiocomms/utilities" path="vendor/intel/hardware/audiocomms/utilities" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/camera_extension" path="vendor/intel/hardware/camera_extension" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/keymaster" path="vendor/intel/hardware/keymaster" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/libcamera2" path="vendor/intel/hardware/libcamera2" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/libcodec_offload" path="vendor/intel/hardware/libcodec_offload" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/libdrm" path="vendor/intel/hardware/libdrm" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/liblights" path="vendor/intel/hardware/liblights" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<project name="vendor/intel/hardware/libmedia_utils" path="vendor/intel/hardware/libmedia_utils" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<!--
+<project name="vendor/intel/hardware/libmultidisplay" path="vendor/intel/hardware/libmultidisplay" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+-->
+<project name="vendor/intel/hardware/libva" path="vendor/intel/hardware/libva" remote="umg" revision="refs/tags/gt/a500cg/l/rel_20150113-2015_ww02" />
+<!--
+<project name="external/skia" path="external/skia" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+-->
+
+<project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
+<project path="vendor/google/gapps" name="AospPlus/android_vendor_google_gapps" remote="github" revision="lollipop-x86" />
+<!--
+-->
+
+<project path="device/asus/a500cg" name="quanganh2627/android_device_asus_a500cg-1" remote="github" revision="RR-5.5.5" />
+<project path="vendor/intel/art-extension" name="android-ia/vendor_intel_art-extension" remote="github" revision="release/android-5.1.1_r16-ia0" />
+<project path="device/intel/mixins" name="android-ia/device_intel_mixins" remote="github" revision="release/android-5.1.1_r16-ia0" />
+<project path="hardware/intel/bluedroid" name="android-ia/wcs_vendor_intel_hardware_bt_wcs_bluedroid" remote="github" revision="release/android-5.1.1_r16-ia0" />
+<project path="hardware/intel/libbt-vendor-intel" name="android-ia/wcs_vendor_intel_hardware_bt_wcs_libbt" remote="github" revision="release/android-5.1.1_r16-ia0" />
+
+
+<!--
+-->
+  <!-- Android-x86 -->
+  <project name="external_parted" path="external/parted" remote="android-x86"  revision="lollipop-x86" />
+  <project path="hardware/gps" name="hardware_gps" remote="android-x86" revision="lollipop-x86" />
+
+  <!-- CM-ZENFONE2 DEVICE PROJECTS -->
+  <project name="CM-zenfone2/android_device_asus_Z00A" path="device/asus/Z00A" remote="github" revision="cm-12.1" />
+  <project name="CM-zenfone2/android_device_asus_Z008" path="device/asus/Z008" remote="github" revision="cm-12.1" />
+    <project name="CM-zenfone2/android_device_asus_mofd-common" path="device/asus/mofd-common" remote="github" revision="cm-12.1" />
+  <project name="CM-zenfone2/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-12.1" />
+  <project path="hardware/intel/apache-harmony" name="vendor/intel/hardware/apache-harmony" groups="intel" remote="umg" revision="refs/tags/imin/redhookbay/a50/rel_20150129-2015_ww04" />
+
+
+  <project path="device/motorola/smi" name="HazouPH/android_device_motorola_smi" remote="github" revision="cm-12.0" />
+<!--
+  <project path="device/motorola/smi-plus" name="HazouPH/android_device_motorola_smi-plus" remote="github" revision="jellibean" />
+-->
+  <project path="patches" name="HazouPH/smi_cm11_patches" remote="github" revision="cm-12.0" />
+  <project path="vendor/motorola/smi" name="HazouPH/android_vendor_motorola_smi" remote="github" revision="cm-11.0" />
+
+
+
+
+
+
+
+
+</manifest>
+
